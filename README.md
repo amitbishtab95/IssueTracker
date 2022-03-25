@@ -1,9 +1,9 @@
 # IssueTracker
 
 #Key Features
-Add Discription
-Severity Level
-Assigned To
+Add Discription</br>
+Severity Level</br>
+Assigned To</br>
 
-Close the Issue
-Delete the Issue
+Close the Issue</br>
+Delete the Issue</br>
