@@ -1,6 +1,6 @@
 # IssueTracker
 
-#Key Features
+<strong>#Key Features</strong></br>
 Add Discription</br>
 Severity Level</br>
 Assigned To</br>
