@@ -1,12 +1,11 @@
 # IssueTracker
 
-<strong>#Key Features</strong></br>
-Add Discription</br>
-Severity Level</br>
-Assigned To</br>
-
-Close the Issue</br>
-Delete the Issue</br>
+<strong>#Key Features</strong></br></br>
+1-Add Discription</br>
+2-Severity Level</br>
+3-Assigned To</br>
+4-Close the Issue</br>
+5-Delete the Issue</br>
 
 Preview</br></br>
 
