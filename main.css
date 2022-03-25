@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+:root {
+  --mainWhite: white;
+  --mainGreen: #13b113;
+  --mainRed: #b90101;
+  --mainViolet: #a304a3;
+  --mainBody: #3a3845;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--mainBody);
+  /* position: relative; */
+  height: 100vh;
+}
+.outer-div {
+  /* height: 100% !important; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100% !important;
+}
+.main-div > h1 {
+  font-family: "Inconsolata", monospace;
+  color: var(--mainWhite);
+  text-align: center;
+  margin: 3rem;
+}
+
+.addIssue {
+  width: 70% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+}
+.addIssue > h3 {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+}
+
+#issueDescInput,
+#issueAssignedToInput {
+  width: 80%;
+  height: 5rem;
+}
+#issueSeverityInput {
+  width: 30%;
+  height: 4rem;
+}
+
+.btn {
+  width: 20%;
+  margin-right: 1rem;
+}
+#issuesList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+  /* background-color: #13b113; */
+}
+.change {
+  background-color: #13b113;
+}
+.well {
+  width: 90%;
+}
+
+.footer {
+  background: white;
+  width: 100% !important;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--mainBody);
+}

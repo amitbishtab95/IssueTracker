@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Issue Tracker</title>
+</head>
+
+<body onload="fetchIssues()">
+    <div class="outer-div">
+        <div class="container main-div">
+            <h1><strong>Issue Tracker</strong> </h1>
+            <div class="jumbotron jumbotron-fluide addIssue">
+                <h3><strong>Add New Issue</strong></h3>
+                <form id="issueInputForm">
+                    <div class="form-group">
+                        <label for="issueDescInput">Description</label>
+                        <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the issue...">
+                    </div>
+                    <div class="form-group">
+                        <label for="issueSeverityInput">Severity</label>
+                        <select id="issueSeverityInput">
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="issueAssignedToInput">Assigned To</label>
+                        <input type="text" class="form-control" id="issueAssignedToInput" placeholder="Enter name...">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </form>
+            </div>
+            <div class="col-lg-12">
+                <div id="issuesList"></div>
+            </div>
+        </div>
+        <section class="footer">
+            <p>&copy Issuetracker.com</p>
+        </section>
+    </div>
+
+    <script src="https://chancejs.com/chance.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
